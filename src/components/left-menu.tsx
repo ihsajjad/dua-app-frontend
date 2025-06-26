@@ -19,7 +19,7 @@ const LeftMenu = ({
   ];
   return (
     <div
-      className={`bg-white md:col-span-1 fixed md:static duration-300 flex flex-col items-center justify-between h-screen py-4 md:py-7 rounded-3xl ${
+      className={`bg-white md:col-span-1 fixed md:static duration-300 flex flex-col items-center justify-between h-screen py-4  rounded-3xl ${
         openMenu ? "  left-0 top-0 z-10" : "-left-20 top-0 md:block"
       }`}
     >

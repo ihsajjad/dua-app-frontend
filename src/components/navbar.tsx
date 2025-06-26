@@ -12,7 +12,7 @@ interface NavbarProps {
 
 const Navbar = ({ openMenu, setOpenMenu, openDropdown, setOpenDropdown }: NavbarProps) => {
   return (
-    <div className="flex gap-2 items-center justify-between flex-col md:flex-row">
+    <div className="flex gap-2 items-center justify-between flex-col md:flex-row my-2">
       <div className="flex items-center justify-between w-full">
         <button
           className={`block md:hidden bg-white rounded-full p-1 duration-300 ${
@@ -27,7 +27,7 @@ const Navbar = ({ openMenu, setOpenMenu, openDropdown, setOpenDropdown }: Navbar
             height={26}
           />
         </button>
-        <span className="text-[#393939] text-2xl">Dua Page</span>
+        <span className=" text-[var(--primary-text)] text-2xl">Dua Page</span>
 
         <button className="md:hidden flex items-center gap-1"
         onClick={() => setOpenDropdown((p) => !p)}
